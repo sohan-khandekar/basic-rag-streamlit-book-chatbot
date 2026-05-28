@@ -5,3 +5,4 @@ __pycache__/
 .streamlit/secrets.toml
 app_backup.py
 app_old_interface_backup.py
+app_name_change_backup.py

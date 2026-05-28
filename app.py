@@ -13,7 +13,7 @@ from pypdf import PdfReader
 
 
 st.set_page_config(
-    page_title="BookMind AI",
+    page_title="Study RAG Chatbot",
     page_icon="📚",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -419,7 +419,7 @@ Text:
     context = "\n\n".join(context_blocks)
 
     prompt = f"""
-You are BookMind AI, a helpful textbook assistant.
+You are Study RAG Chatbot, a helpful textbook assistant.
 
 Answer the user's question using ONLY the provided book context.
 
@@ -460,7 +460,7 @@ def render_hero():
     st.markdown(
         """
         <div class="hero">
-            <div class="hero-title">📚 BookMind AI</div>
+            <div class="hero-title">📚 Study RAG Chatbot</div>
             <div class="hero-subtitle">
                 Upload a textbook PDF and ask questions directly from its contents.
                 The chatbot searches your book first, then generates an answer using the most relevant pages.
